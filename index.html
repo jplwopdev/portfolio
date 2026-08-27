@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link rel="icon" href="img/icon_web.svg">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>João Pedro Lima — Data Analyst &amp; Business Intelligence</title>
+<meta name="description" content="Portfólio de João Pedro Lima: Data Analyst &amp; Business Intelligence — ETL/ELT, modelagem de dados, SQL, Python, Power BI e DAX." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- =================== HEADER =================== -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="#top" class="nav-logo">JP<span class="dot"></span></a>
+
+    <nav class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#fluxo">Fluxo de dados</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#stack">Stack</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="btn btn--ghost btn--sm" href="https://drive.google.com/file/d/1fJSQW6OBZl-772ORqj65Sti9-yH4zClq/view?usp=sharing" target="_blank" rel="noopener">Currículo ↗</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M1 4h16M1 9h16M1 14h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav-mobile-panel" id="navMobile">
+    <a href="#sobre">Sobre</a>
+    <a href="#fluxo">Fluxo de dados</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#stack">Stack</a>
+    <a href="#especialidades">Especialidades</a>
+    <a href="#contato">Contato</a>
+    <a href="https://drive.google.com/file/d/1fJSQW6OBZl-772ORqj65Sti9-yH4zClq/view?usp=sharing" target="_blank" rel="noopener">Baixar currículo ↗</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- =================== HERO =================== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Data Analyst · Business Intelligence</span>
+        <h1>Dados brutos, transformados em <span class="accent-word">decisões confiáveis</span>.</h1>
+        <p class="hero-lede">
+          Estruturo pipelines de ETL/ELT, faço modelagem de dados para ambientes analíticos e dou
+          suporte à criação de relatórios em Power BI — usando Python, SQL, Apache Hop e DAX.
+        </p>
+
+        <div class="hero-tags">
+          <span class="pill">Data Modeling</span>
+          <span class="pill">ETL / ELT</span>
+          <span class="pill">Power BI &amp; DAX</span>
+          <span class="pill">SQL</span>
+          <span class="pill">Apache Hop</span>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#especialidades" class="btn btn--primary">Ver especialidades →</a>
+          <a href="https://www.linkedin.com/in/joao-pedro-lima1/" target="_blank" rel="noopener" class="btn btn--ghost">Conectar no LinkedIn ↗</a>
+        </div>
+
+        <div class="hero-facts">
+          <div class="hero-fact">
+            <div class="label">Atual</div>
+            <div class="value">Data Analyst &amp; BI @ <span class="todo" >Sobrancelhas Design</span></div>
+          </div>
+          <div class="hero-fact">
+            <div class="label">Formação</div>
+            <div class="value">Técnico em Redes de Computadores</div>
+          </div>
+          <div class="hero-fact">
+            <div class="label">Foco</div>
+            <div class="value">ETL/ELT, modelagem de dados e Business Intelligence com Power BI</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="console reveal">
+          <div class="console-bar">
+            <span></span><span></span><span></span>
+            <!-- <span class="title" style="padding-left: 0px;">pipeline_status.log</span> -->
+          </div>
+          <div class="console-body" id="consoleBody">
+            <!-- lines injected by script.js -->
+          </div>
+          <div class="console-foot">
+            <span class="live">monitoramento ativo</span>
+            <span>ETL/ELT · Power BI · DAX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== SOBRE =================== -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Sobre</span>
+        <h2>Entre os dados e o negócio.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Sou João Pedro, tenho 18 anos e sou técnico em Redes de Computadores. Atualmente atuo na
+            área de Dados e Business Intelligence, estruturando pipelines de ETL/ELT, modelagem de
+            dados e dando suporte à criação de relatórios e análises em Power BI.
+          </p>
+          <p>
+            Meu trabalho acompanha o fluxo completo do dado: da extração em planilhas e APIs, passando
+            pela transformação Apache Hop e Python, até a organização em bancos relacionais —
+            PostgreSQL e MySQL — e a modelagem dimensional que sustenta os relatórios.
+          </p>
+          <p>
+            No lado de Business Intelligence, desenvolvo relatórios e dashboards em Power BI, crio
+            medidas e cálculos em DAX e organizo modelos e repositórios de BI — sempre com o objetivo
+            de transformar dados em insights que façam sentido para o negócio.
+          </p>
+        </div>
+
+        <aside class="about-side reveal">
+          <dl>
+            <div>
+              <dt>Localização</dt>
+              <dd><span class="todo">Fortaleza, CE</span> — Brasil</dd>
+            </div>
+            <div>
+              <dt>Atuação</dt>
+              <dd>Dados &amp; Business Intelligence</dd>
+            </div>
+            <div>
+              <dt>Ferramentas principais</dt>
+              <dd>SQL, Python, Apache Hop, Power BI, DAX, ETL</dd>
+            </div>
+            <div>
+              <dt>Formação</dt>
+              <dd>Técnico em Redes de Computadores — EEEP Leonel de Moura Brizola</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FLUXO DE DADOS =================== -->
+  <section class="section" id="fluxo">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Como eu trabalho</span>
+        <h2>Do dado bruto ao dashboard confiável.</h2>
+        <p>O fluxo que sigo em todo pipeline: da coleta à análise em Power BI.</p>
+      </div>
+
+      <div class="pipeline">
+        <div class="pipeline-step reveal">
+          <span class="num">01</span>
+          <h3>Fontes de Dados</h3>
+          <p>Coleta dados a partir de planilhas e APIs, ponto de partida de todo pipeline.</p>
+          <div class="chips"><span>Planilhas</span><span>APIs</span></div>
+        </div>
+        <div class="pipeline-step reveal">
+          <span class="num">02</span>
+          <h3>ETL / ELT</h3>
+          <p>Extrai, transforma e organiza os dados com Python e Apache Hop.</p>
+          <div class="chips"><span>Python</span><span>Apache Hop</span></div>
+        </div>
+        <div class="pipeline-step reveal">
+          <span class="num">03</span>
+          <h3>Banco de Dados</h3>
+          <p>Armazena os dados estruturados em bancos relacionais.</p>
+          <div class="chips"><span>PostgreSQL</span><span>MySQL</span></div>
+        </div>
+        <div class="pipeline-step reveal">
+          <span class="num">04</span>
+          <h3>Modelagem</h3>
+          <p>Organiza os dados em modelos dimensionais prontos para análise.</p>
+          <div class="chips"><span>Data Modeling</span></div>
+        </div>
+        <div class="pipeline-step reveal">
+          <span class="num">05</span>
+          <h3>Business Intelligence</h3>
+          <p>Transforma os modelos em relatórios e dashboards de negócio.</p>
+          <div class="chips"><span>Power BI</span><span>DAX</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== EXPERIÊNCIA =================== -->
+<section class="section" id="experiencia">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span class="eyebrow">Experiência</span>
+      <h2>Do dado bruto ao relatório de negócio, na prática.</h2>
+    </div>
+
+    <div class="timeline">
+
+      <!-- Experiência 1 -->
+      <div class="timeline-item reveal">
+        <span class="timeline-period">
+          <span class="todo">Janeiro/2026</span> — Presente
+        </span>
+
+        <h3>Data Analyst &amp; Business Intelligence</h3>
+
+        <span class="timeline-org">
+          <span class="todo">Sobrancelhas Design</span>
+        </span>
+
+        <ul>
+          <li>Desenvolvimento e manutenção de processos de ETL/ELT utilizando Python, SQL e Apache Hop.</li>
+          <li>Modelagem, tratamento e organização de dados para ambientes analíticos e soluções de BI.</li>
+          <li>Desenvolvimento de dashboards, indicadores e relatórios gerenciais no Power BI.</li>
+          <li>Criação de medidas, métricas e regras de negócio utilizando DAX.</li>
+          <li>Monitoramento, validação e otimização de cargas e bases utilizadas pelo BI.</li>
+          <li>Atendimento de demandas das áreas de negócio, transformando necessidades em soluções de dados.</li>
+        </ul>
+      </div>
+
+      <!-- Experiência 2 - mesma empresa -->
+      <div class="timeline-item reveal">
+        <span class="timeline-period">
+          <span class="todo">Agosto/2025</span> — Dezembro/2025
+        </span>
+
+        <h3>Estagiário</h3>
+
+        <span class="timeline-org">
+          <span class="todo">Sobrancelhas Design</span>
+        </span>
+
+        <ul>
+          <li>Aprendizado prático sobre ETL, tratamento e organização de dados.</li>
+          <li>Desenvolvimento de consultas SQL para extração e análise de informações.</li>
+          <li>Aprendizagem a criação e manutenção de dashboards e indicadores no Power BI.</li>
+          <li>Utilização de DAX para criação de medidas e métricas de negócio.</li>
+          <li>Contato com modelagem de dados e estruturação de ambientes de BI.</li>
+          <li>Desenvolvimento de boas práticas para validação e qualidade dos dados.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- =================== STACK =================== -->
+  <section class="section" id="stack">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Tecnologia</span>
+        <h2>Ferramentas que sustentam o meu trabalho com dados.</h2>
+        <p>Organizadas por onde atuam no fluxo — da extração à análise.</p>
+      </div>
+
+      <div class="stack-tabs" id="stackTabs">
+        <button class="stack-tab is-active" data-filter="all">Tudo</button>
+        <button class="stack-tab" data-filter="db">Dados &amp; Banco de Dados</button>
+        <button class="stack-tab" data-filter="etl">ETL / ELT</button>
+        <button class="stack-tab" data-filter="bi">Business Intelligence</button>
+        <button class="stack-tab" data-filter="tools">Ferramentas de Apoio</button>
+      </div>
+
+      <div class="stack-grid reveal" id="stackGrid">
+        <div class="stack-chip" data-cat="db">SQL</div>
+        <div class="stack-chip" data-cat="db">PostgreSQL</div>
+        <div class="stack-chip" data-cat="db">MySQL</div>
+
+        <div class="stack-chip" data-cat="etl">Python</div>
+        <div class="stack-chip" data-cat="etl">Apache Hop</div>
+
+        <div class="stack-chip" data-cat="bi">Power BI</div>
+        <div class="stack-chip" data-cat="bi">DAX</div>
+        <div class="stack-chip" data-cat="bi">Data Modeling</div>
+
+        <div class="stack-chip" data-cat="tools">Git</div>
+        <div class="stack-chip" data-cat="tools">GitHub</div>
+        <div class="stack-chip" data-cat="tools">Notion</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== ESPECIALIDADES =================== -->
+  <section class="section" id="especialidades">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Frentes de atuação</span>
+        <h2>Da extração de dados ao insight de negócio.</h2>
+        <p>As áreas onde atuo no dia a dia, cobrindo todo o fluxo de dados.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <span class="kicker">Data &amp; ETL</span>
+          <h3>Pipelines de ETL/ELT</h3>
+          <p>Construção e orquestração de pipelines de ETL/ELT, da extração de dados brutos até
+             bancos relacionais prontos para análise.</p>
+          <ul>
+            <li>Extração de dados de planilhas e outras fontes com Python</li>
+            <li>Orquestração de pipelines com Apache Hop</li>
+            <li>Monitoramento e controle de cargas de dados</li>
+          </ul>
+          <div class="tags">
+            <span class="pill pill--accent">Python</span>
+            <span class="pill pill--accent">Apache Hop</span>
+            <span class="pill pill--accent">ETL/ELT</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="kicker">Modelagem de Dados</span>
+          <h3>Modelagem para Ambientes Analíticos</h3>
+          <p>Organização de dados em modelos dimensionais que sustentam relatórios confiáveis e
+             fáceis de manter.</p>
+          <ul>
+            <li>Modelagem de dados para ambientes analíticos</li>
+            <li>Estruturação de bancos relacionais (PostgreSQL, MySQL)</li>
+            <li>Consultas e organização de dados com SQL</li>
+          </ul>
+          <div class="tags">
+            <span class="pill pill--accent">SQL</span>
+            <span class="pill pill--accent">Data Modeling</span>
+            <span class="pill pill--accent">PostgreSQL</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="kicker">Business Intelligence</span>
+          <h3>Relatórios &amp; Dashboards em Power BI</h3>
+          <p>Desenvolvimento de relatórios e dashboards que traduzem dados em decisões, com medidas
+             e cálculos em DAX.</p>
+          <ul>
+            <li>Desenvolvimento de relatórios e dashboards em Power BI</li>
+            <li>Criação de medidas e cálculos com DAX</li>
+            <li>Organização de modelos e repositórios de BI</li>
+          </ul>
+          <div class="tags">
+            <span class="pill pill--accent">Power BI</span>
+            <span class="pill pill--accent">DAX</span>
+            <span class="pill pill--accent">Data Modeling</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="section-foot-note">Mais detalhes técnicos sobre cada frente de atuação, disponíveis sob demanda.</p>
+    </div>
+
+  </section>
+
+  
+
+  <!-- =================== FORMAÇÃO =================== -->
+  <section class="section" id="formacao">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Formação</span>
+        <h2>Base técnica para sustentar a prática.</h2>
+      </div>
+
+      <div class="education-grid is-solo">
+        <div class="edu-card reveal">
+          <span class="period">Concluído</span>
+          <h3>Técnico em Redes de Computadores</h3>
+          <span class="org">EEEP Leonel de Moura Brizola</span>
+          <p>Formação técnica que despertou o interesse por tecnologia, dados e automação de
+             processos — base que aplico hoje em ETL/ELT, modelagem de dados e Business Intelligence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== CONTATO =================== -->
+  <section class="section" id="contato">
+    <div class="container contact-wrap">
+      <div>
+        <span class="eyebrow">Vamos conversar</span>
+        <h2>Aberto a conversas sobre dados, ETL e Business Intelligence.</h2>
+        <p>Se você precisa de alguém para estruturar pipelines, organizar modelos de dados ou dar suporte a relatórios em Power BI, entre em contato.</p>
+        <a href="#top" class="btn btn--primary">Voltar ao topo ↑</a>
+      </div>
+
+      <div class="contact-links reveal">
+        <a class="contact-link" href="https://www.linkedin.com/in/joao-pedro-lima1/" target="_blank" rel="noopener">
+          <span class="name">LinkedIn</span>
+          <span class="handle">joao-pedro-lima1</span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="contact-link" href="https://github.com/jplwopdev" target="_blank" rel="noopener">
+          <span class="name">GitHub</span>
+          <span class="handle">jplwopdev</span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="contact-link" href="mailto:joaop.lima567@gmail.com">
+          <span class="name">Email</span>
+          <span class="handle">joaop.lima567@gmail.com</span>
+          <span class="arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© 2026 João Pedro Lima.</span>
+    <a href="https://github.com/jplwopdev" target="_blank" rel="noopener">Feito com dados, café e Git ↗</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
