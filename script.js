@@ -44,7 +44,7 @@ if (stackTabs) {
 // Hero console — simulated pipeline status log
 // ===================================================================
 const consoleLines = [
-  { status: '✓', text: 'Dados extraídos', tag: 'Planilhas · APIs' },
+  { status: '✓', text: 'Dados extraídos', tag: 'Planilhas · Bancos' },
   { status: '✓', text: 'Pipeline ETL/ELT concluído', tag: 'Python · Apache Hop' },
   { status: '→', text: 'Carregando no banco de dados', tag: 'PostgreSQL · MySQL', pending: true },
   { status: '✓', text: 'Modelo dimensional atualizado', tag: 'Data Modeling' },
@@ -101,3 +101,9 @@ if ('IntersectionObserver' in window && revealEls.length) {
 } else {
   revealEls.forEach((el) => el.classList.add('is-visible'));
 }
+
+
+  const anoNascimento = 2007;
+  const idade = new Date().getFullYear() - anoNascimento;
+
+  document.getElementById("idade").textContent = idade;
